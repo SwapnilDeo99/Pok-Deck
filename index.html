@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokémon</title>
+</head>
+<body>
+    <div class="header">
+        <h1>PokéDeck</h1>
+        <div class="search-bar">
+            <form action="">
+                <input type="number" name="" id="numberOfPoke">
+                <select name="" id="type">
+                    <option value="normal">normal</option>
+                    <option value="fighting">fighting</option>
+                    <option value="flying">flying</option>
+                    <option value="poison">poison</option>
+                    <option value="ground">ground</option>
+                    <option value="rock">rock</option>
+                    <option value="bug">bug</option>
+                    <option value="ghost">ghost</option>
+                    <option value="steel">steel</option>
+                    <option value="fire">fire</option>
+                    <option value="water">water</option>
+                    <option value="grass">grass</option>
+                    <option value="electric">electric</option>
+                    <option value="psychic">psychic</option>
+                    <option value="ice">ice</option>
+                    <option value="dragon">dragon</option>
+                    <option value="dark">dark</option>
+                    <option value="fairy">fairy</option>
+                  </select>
+                  
+                  <button type="button" onclick="fetchApi()">Fetch Pokémon</button>
+            </form>
+        </div>
+    </div>
+    <div class="container"> 
+    </div>
+    <div class="footer">
+        <p>Made with ❤️ by Swapnil</p>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
